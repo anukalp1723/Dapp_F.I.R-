@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import BannerImage from "../assets/handcuff2.jpg";
+import BannerImage from "../assets/police223.jpg";
 import "../styles/Home.css";
 
 function Home() {
@@ -9,7 +9,7 @@ function Home() {
       <div className="headerContainer">
         <h1>  DECENTRALISED F.I.R </h1>
         <br></br>
-        <p> PRESS THIS BUTTON TO FILLING THE FORM </p>
+        <p> PRESS THIS BUTTON FOR FILLING THE FORM </p>
         <Link to="/Contact">
           <button> FIR FORM </button>
         </Link>

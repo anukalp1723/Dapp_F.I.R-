@@ -37,9 +37,11 @@ function Contact() {
           <input name="name" placeholder="Enter Aadhar number" type="number" />
           <label htmlFor="name">FIR case number</label>
           <input name="name" placeholder="Enter case number" type="number" />
+          <label htmlFor="name">Section</label>
+          <input name="name" placeholder="Enter Section" type="text" />
           <label for="TodayDate">Today's Date</label>
            <input type="date" id="birthday" name="birthday"></input>
-           <label for="Time">Accident Time</label>
+           <label for="Time">Incident Time</label>
            <input type="time" id="Time" name="Time"></input>
           <label for="w3review">Description of case/FIR report:</label>
           <textarea id="Description" name="description" rows="9" cols="80">
